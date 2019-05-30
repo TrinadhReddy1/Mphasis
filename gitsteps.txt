@@ -1,0 +1,16 @@
+--from git hub to local machine
+1.set config --global user.name "rahulahire7"
+2.set config --global user.name rahul.ahire@gmail.com
+3.git clone http://https://github.com/rahulahire7/Mphasis.git
+
+
+--changes from local machine to git hub
+git add *
+git init
+git status
+git commit -m "some masg"
+git push https://github.com/rahulahire7/Mphasis.git
+
+--now pull changes from guthub..
+
+git pull https://github.com/rahulahire7/Mphasis.git
